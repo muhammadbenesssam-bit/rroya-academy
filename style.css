@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+    background: #f6f2e8; /* بيج هادي */
+}
+
+header {
+    background: #1f5633; /* أخضر داكن */
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background: #cde6d5; /* أخضر فاتح */
+    text-align: center;
+    padding: 60px 0;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0002;
+    text-align: center;
+}
+
+.levels-box {
+    padding: 40px;
+    text-align: center;
+}
+
+.levels {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.level-card {
+    background: #1f5633;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.level-card:hover {
+    background: #144022;
+}
+
+footer {
+    background: #1f5633;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
